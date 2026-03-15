@@ -1,0 +1,24 @@
+{
+  "name": "blackfox-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram AI Bot menggunakan Groq API",
+  "main": "bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "ai",
+    "groq"
+  ],
+  "author": "Diki",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "chalk": "^5.3.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+    }
